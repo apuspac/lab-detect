@@ -1,3 +1,9 @@
+# yolov5のdetection結果とtruthを比較するために、truthののbbxo情報を取得します。
+# これbboxとtruthを比較したかったっぽい。
+
+
+
+
 # Standard Libraries
 import sys
 import os

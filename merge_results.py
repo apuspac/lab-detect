@@ -1,3 +1,11 @@
+# yolov5とyolactの結果を統合したjson detections.jsonを出力します。
+# 検出にかける画像のディレクトリパスと、yolov5とyolactの結果が格納されているディレクトリを指定
+# yolov5の結果は bbox_detections.json, yolactの結果はmask_detection.jsonにしてください。
+
+# Usage:
+# python detect_by_yolov5.py /path/to/img path/to/output_dir
+
+
 # Standard Libraries
 import sys
 import os
@@ -13,15 +21,11 @@ import numpy as np
 
 class MergeResults():
     def __init__(self, result_location):
-        # self.bbox_results_location = 'D:/Repositories/Lab/script/results/bbox_detections.json'
-        # self.mask_results_location = 'D:/Repositories/Lab/script/results/mask_detections.json'
-        # self.merged_results_location = 'D:/Repositories/Lab/script/results/detections.json'
-        # self.visualized_results_location = 'D:/Repositories/Lab/script/results/visualized_images'
         pwd_path = str(pathlib.Path.cwd())
-        self.bbox_results_location = pwd_path + '/results/' + result_location + '/bbox_detections.json'
-        self.mask_results_location = pwd_path + '/results/' + result_location + '/mask_detections.json'
-        self.merged_results_location = pwd_path + '/results/' + result_location + '/detections.json'
-        self.visualized_results_location = pwd_path + '/results/' + result_location + '/visualized_images'
+        self.bbox_results_location = pwd_path +  result_location + '/bbox_detections.json'
+        self.mask_results_location = pwd_path +  result_location + '/mask_detections.json'
+        self.merged_results_location = pwd_path + result_location + '/detections.json'
+        self.visualized_results_location = pwd_path + result_location + '/visualized_images'
 
 
     def merge_results(self, filename, filepath):

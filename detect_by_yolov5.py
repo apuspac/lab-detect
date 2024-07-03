@@ -1,3 +1,13 @@
+# yolov5を使って物体検出を行うスクリプト。
+# yolov5, weightを変更する場合は、 yolov5_path, weight_pathを変更してください。
+
+# Usage:
+# python detect_by_yolov5.py [検出対象の画像フォルダパス] [出力フォルダ名]
+# python detect_by_yolov5.py ../res/data/img/ ../res/out/detect
+
+
+
+
 # Standard Libraries
 
 
@@ -15,9 +25,15 @@ from torchvision.utils import save_image
 
 
 class YoloV5Detection():
+
     def __init__(self):
         pwd_path = pathlib.Path.cwd()
-        self.model = torch.hub.load(str(pwd_path) + '/../yolov5', 'custom', source='local', path=str(pwd_path) + '/weight/1208-best.pt', force_reload=True)
+
+        yolov5_path = str(pwd_path) + '/../yolov5'
+        weight_path = str(pwd_path) + '/weight/1208-best.pt';
+
+
+        self.model = torch.hub.load(yolov5_path, 'custom', source='local', weithgt_path, force_reload=True)
 
     def detect(self, filepath, outname):
         # Test Image
@@ -39,7 +55,7 @@ class YoloV5Detection():
 
     def save_results(self, results, outname):
         pwd_path = pathlib.Path.cwd()
-        save_location = str(pwd_path) + '/results/' + outname + '/'
+        save_location = str(pwd_path) + outname + '/'
         if not os.path.exists(save_location):
             os.makedirs(save_location)
 
