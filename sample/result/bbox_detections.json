@@ -1,0 +1,145 @@
+{
+    "yolo": [
+        {
+            "bbox_info": [
+                {
+                    "class": 9,
+                    "confidence": 0,
+                    "name": "square_box_w_marker_front_side",
+                    "xmax": 2070,
+                    "xmin": 2010,
+                    "ymax": 1423,
+                    "ymin": 1357
+                },
+                {
+                    "class": 9,
+                    "confidence": 0,
+                    "name": "square_box_w_marker_front_side",
+                    "xmax": 2861,
+                    "xmin": 2814,
+                    "ymax": 1869,
+                    "ymin": 1823
+                },
+                {
+                    "class": 7,
+                    "confidence": 0,
+                    "name": "square_box_back_side",
+                    "xmax": 1590,
+                    "xmin": 1516,
+                    "ymax": 1847,
+                    "ymin": 1779
+                },
+                {
+                    "class": 9,
+                    "confidence": 0,
+                    "name": "square_box_w_marker_front_side",
+                    "xmax": 2859,
+                    "xmin": 2808,
+                    "ymax": 1534,
+                    "ymin": 1483
+                },
+                {
+                    "class": 9,
+                    "confidence": 0,
+                    "name": "square_box_w_marker_front_side",
+                    "xmax": 3641,
+                    "xmin": 3589,
+                    "ymax": 2264,
+                    "ymin": 2211
+                },
+                {
+                    "class": 9,
+                    "confidence": 0,
+                    "name": "square_box_w_marker_front_side",
+                    "xmax": 2068,
+                    "xmin": 2008,
+                    "ymax": 1843,
+                    "ymin": 1786
+                },
+                {
+                    "class": 9,
+                    "confidence": 0,
+                    "name": "square_box_w_marker_front_side",
+                    "xmax": 2395,
+                    "xmin": 2335,
+                    "ymax": 2102,
+                    "ymin": 2048
+                },
+                {
+                    "class": 9,
+                    "confidence": 0,
+                    "name": "square_box_w_marker_front_side",
+                    "xmax": 555,
+                    "xmin": 491,
+                    "ymax": 2393,
+                    "ymin": 2333
+                },
+                {
+                    "class": 9,
+                    "confidence": 0,
+                    "name": "square_box_w_marker_front_side",
+                    "xmax": 3717,
+                    "xmin": 3665,
+                    "ymax": 2266,
+                    "ymin": 2214
+                },
+                {
+                    "class": 9,
+                    "confidence": 0,
+                    "name": "square_box_w_marker_front_side",
+                    "xmax": 640,
+                    "xmin": 581,
+                    "ymax": 1838,
+                    "ymin": 1781
+                },
+                {
+                    "class": 9,
+                    "confidence": 0,
+                    "name": "square_box_w_marker_front_side",
+                    "xmax": 3719,
+                    "xmin": 3678,
+                    "ymax": 1873,
+                    "ymin": 1832
+                },
+                {
+                    "class": 7,
+                    "confidence": 0,
+                    "name": "square_box_back_side",
+                    "xmax": 1589,
+                    "xmin": 1525,
+                    "ymax": 1298,
+                    "ymin": 1227
+                },
+                {
+                    "class": 9,
+                    "confidence": 0,
+                    "name": "square_box_w_marker_front_side",
+                    "xmax": 2950,
+                    "xmin": 2892,
+                    "ymax": 1341,
+                    "ymin": 1286
+                },
+                {
+                    "class": 2,
+                    "confidence": 0,
+                    "name": "big_rectangle_box_w_marker_front_side",
+                    "xmax": 558,
+                    "xmin": 483,
+                    "ymax": 1845,
+                    "ymin": 1784
+                },
+                {
+                    "class": 9,
+                    "confidence": 0,
+                    "name": "square_box_w_marker_front_side",
+                    "xmax": 3070,
+                    "xmin": 3018,
+                    "ymax": 1339,
+                    "ymin": 1289
+                }
+            ],
+            "file_name": "PIC_06181.jpg",
+            "file_path": "data/20240618/PIC_06181.jpg"
+        }
+    ]
+}
