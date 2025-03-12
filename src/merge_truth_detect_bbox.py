@@ -71,6 +71,7 @@ class MergeResults():
         input_merged_file = open(self.merged_results_location)
         merged_results = json.load(input_merged_file)['merged_data']
 
+        # example of color profile: class_name
         color_profile = {
             "square_box_w_marker_front_side": (0, 0, 255),
             "square_box_front_side": (255,0,0),

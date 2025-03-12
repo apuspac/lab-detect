@@ -1,6 +1,7 @@
 # detect
+研究で使用した物体検出まわりのscript.
+yolov5と yolactを動かし、推論を行ない、結果をlab-pointcloudのprogram用に変換。
 
-yolov5と yolactを動かし、結果をcoordinate_transform用に変換するscriptを集めたものです。
 
 ## dependencies
 pyproject.tomlに記載しているdependenciesをインストールしてください。
@@ -54,6 +55,5 @@ merge_results.py [検出対象の画像DIRパス] [yolov5, yolactの結果が格
 
 
 ```
-
 
 - `merge_truth_detect_bbox.py`は、おそらくbboxとtruthの結果を統合して、画像で比較するためのものだったんだろうと推測していますが、なさそうです。
